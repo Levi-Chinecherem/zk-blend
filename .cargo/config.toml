@@ -1,0 +1,5 @@
+[target.x86_64-pc-windows-msvc]
+rustflags = [
+    "-C", "link-arg=/LIBPATH:C:\\vcpkg\\installed\\x64-windows\\lib",
+    "-C", "link-arg=gmp.lib",
+]
