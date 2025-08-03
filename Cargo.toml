@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+pari-sys = "0.3"
 ark-ec = "0.4.2"
 ark-ff = "0.4.2"
 ark-poly = "0.4.2"
